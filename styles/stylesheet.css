@@ -25,6 +25,7 @@ h1 {
   width: 90%;
   font-size: 3rem;
   margin-top: 1.2rem;
+  font-family: inder;
 }
 
 header img {
@@ -33,7 +34,8 @@ header img {
 }
 
 header a {
-    text-decoration: none;
+  text-decoration: none;
+  color: #403131;
 }
 
 header nav {
@@ -49,21 +51,26 @@ header li {
   float: left;
   font-size: 1.3rem;
   border: 1px solid black;
-  background-color: bisque;
+  background-color: #BCD6D6;
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  font-family: sans-serif;
 }
 
 h2 {
   text-align: center;
   font-size: 2rem;
+  font-family: inder;
+  color: #403131;
 }
 
 h3, h4 {
   text-align: center;
   font-size: 1.5rem;
   margin: 1rem;
+  font-family: inder;
+  color: black;
 }
 
 .associations {
@@ -88,6 +95,7 @@ h3, h4 {
   float: right;
   margin: 4rem 1rem;
   font-size: 1.5rem;
+  font-family: philosopher;
 }
 
 .associations section {
@@ -95,7 +103,7 @@ h3, h4 {
   width: 80%;
   border: 1px solid black;
   margin: 1rem auto;
-  background-color: bisque;
+  background-color: #BCD6D6;
 }
 
 .instructor-bios {
@@ -117,8 +125,9 @@ h3, h4 {
   width: 45%;
   border: 1px solid black;
   margin: 1rem;
-  min-height: 460px;
-  background-color: bisque;
+  min-height: 480px;
+  min-width: 320px;
+  background-color: #BCD6D6;
 }
 
 .bio-left {
@@ -130,6 +139,7 @@ h3, h4 {
   margin: 1.5rem;
   text-align: justify;
   font-size: 1.2rem;
+  font-family: philosopher;
 }
 
 .archery-videos {
@@ -144,7 +154,8 @@ h3, h4 {
   width: 45%;
   border: 1px solid black;
   margin: 1rem;
-  background-color: bisque;
+  background-color: #BCD6D6;
+  min-width: 320px;
 }
 
 .archery-videos video {
@@ -157,7 +168,7 @@ aside {
   padding: 1rem;
   width: 99%;
   margin: auto;
-  background-color: bisque;
+  background-color: #BCD6D6;
   border: 1px black solid;
 }
 
@@ -165,13 +176,14 @@ aside p {
   font-size: 1.2rem;
   width: 90%;
   margin: auto;
+  font-family: philosopher;
 }
 
 footer {
   border: 1px black solid;
   margin: 1rem auto;
   width: 99%;
-  background-color: bisque;
+  background-color: #BCD6D6;
 }
 
 footer a {
@@ -190,10 +202,12 @@ footer li {
   text-align: center;
   font-size: 2rem;
   background-color: white;
+  font-family: sans-serif;
 }
 
 footer p {
   clear: both;
   text-align: center;
   padding: 1rem;
+  font-family: philosopher;
 }
