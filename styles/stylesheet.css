@@ -1,3 +1,4 @@
+/* border box and clearfix styles */
 * { box-sizing: border-box;}
 
 .clearfix:after {
@@ -6,6 +7,7 @@
   clear: both;
 }
 
+/* fix header to top of page, set background */
 header {
   position: fixed;
   top:  0px;
@@ -13,6 +15,7 @@ header {
   background-color: white;
 }
 
+/* float logo to the left and size it, h1 next to it, center and style h1 */
 .logo {
   float: left;
   width: 10%;
@@ -38,6 +41,8 @@ header a {
   color: #403131;
 }
 
+/* clear float, float, size and style nav buttons */
+
 header nav {
   clear: both;
 }
@@ -58,6 +63,7 @@ header li {
   font-family: sans-serif;
 }
 
+/* style h2, h3, h4 across the site */
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -73,12 +79,15 @@ h3, h4 {
   color: black;
 }
 
+/* set margin on Associations article so it does not sit behind fixed nav bar, float left */
+
 .associations {
   margin-top: 165px;
   width: 33%;
   float: left;
-  background-color: none;
 }
+
+/* style links, images, paragraphs in Associations article, create vertically stacked box for each association */
 
 .associations a {
   text-decoration: none;
@@ -106,12 +115,15 @@ h3, h4 {
   background-color: #BCD6D6;
 }
 
+/* set margin on Bios article so it does not sit behind fixed nav bar, float right */
+
 .instructor-bios {
   margin-top: 165px;
   width: 66%;
   float: right;
-  background-color: none;
 }
+
+/* style links, images, paragraphs in Bios article, create two rows of vertically stacked boxes for bios */
 
 .instructor-bios img {
   width: 320px;
@@ -142,6 +154,8 @@ h3, h4 {
   font-family: philosopher;
 }
 
+/* style video article, float video sections to create one row of videos */
+
 .archery-videos {
   width: 66%;
   float: right;
@@ -163,6 +177,8 @@ h3, h4 {
   margin: 1rem auto;
 }
 
+/* style aside (policy) */
+
 aside {
   clear: both;
   padding: 1rem;
@@ -179,6 +195,8 @@ aside p {
   font-family: philosopher;
 }
 
+/* set border and background for footer, style links */
+
 footer {
   border: 1px black solid;
   margin: 1rem auto;
@@ -190,6 +208,7 @@ footer a {
     text-decoration: none;
 }
 
+/* create social media nav bar in footer */
 footer ul {
   width: 80%;
   margin: auto;
