@@ -63,12 +63,14 @@ h2 {
 h3 {
   text-align: center;
   font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .associations {
   margin-top: 165px;
   width: 33%;
   float: left;
+  background-color: aquamarine;
 }
 
 .associations a {
@@ -99,13 +101,62 @@ h3 {
   margin-top: 165px;
   width: 66%;
   float: right;
+  background-color: aqua;
 }
 
 .instructor-bios img {
-  width: 240px;
-  height: 180px;
+  width: 320px;
+  height: 240px;
+  display: block;
+  margin: 1rem auto;
+}
+
+.instructor-bios section {
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  margin: 1rem;
+  min-height: 460px;
+}
+
+.bio-left {
+  clear: both;
+}
+
+.instructor-bios p {
+  width: 90%;
+  margin: 1.5rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.archery-videos {
+  width: 66%;
+  float: right;
+  margin-top: 1rem;
+}
+
+.archery-videos section {
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.archery-videos video {
+  display: block;
+  margin: 1rem auto;
 }
 
 aside {
   clear: both;
+  padding: 1rem;
+  width: 98%;
+  margin: auto;
+  background-color: bisque;
+}
+aside p {
+  font-size: 1.2rem;
+  width: 90%;
+  margin: auto;
 }
