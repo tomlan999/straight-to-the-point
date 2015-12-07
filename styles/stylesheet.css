@@ -155,14 +155,23 @@ h3, h4 {
 aside {
   clear: both;
   padding: 1rem;
-  width: 98%;
+  width: 99%;
   margin: auto;
   background-color: bisque;
+  border: 1px black solid;
 }
+
 aside p {
   font-size: 1.2rem;
   width: 90%;
   margin: auto;
+}
+
+footer {
+  border: 1px black solid;
+  margin: 1rem auto;
+  width: 99%;
+  background-color: bisque;
 }
 
 footer a {
@@ -180,6 +189,7 @@ footer li {
   border: 1px black solid;
   text-align: center;
   font-size: 2rem;
+  background-color: white;
 }
 
 footer p {
