@@ -12,11 +12,13 @@ html,body {
 }
 
 .span_2_of_3 {
-	width: 66.13%; 
+	width: 63%; 
+	margin-right: 2.5%;
 }
 
 .span_1_of_3 {
-	width: 32.26%; 
+	width: 30%; 
+	margin-left: 2.5%;
 }
 
 
@@ -37,13 +39,15 @@ html,body {
 /*  HEADER */
 
 header {
+	text-align: center;
 	position: fixed;
 	top: 0;
-	height: 15vw;
+	height: 10rem;
 	max-height: 150px;
 	background-color: #523e33;
 	font-family: 'Inder', sans-serif;
 	z-index: 5;
+  box-shadow: 0px 5px 50px white;
 }
 
 header img {
@@ -53,9 +57,9 @@ header img {
 	margin-top: auto;
 	margin-bottom: auto;
 	display: inline-block;
-	left: 20vw;
-	height: 13vw;
-	max-height: 140px
+	left: 18rem;
+	height: 10vw;
+	max-height: 100px
 }
 
 header a {
@@ -64,11 +68,10 @@ header a {
 }
 
 header h1 a {
-	position: absolute;
-	left: 35vw;
+	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 3vw;
+	font-size: 3.5rem;
 	letter-spacing: .2rem;
 	text-decoration: none;
 }
@@ -81,35 +84,44 @@ header li {
 }
 
 header ul {
+	position: relative;
+	bottom: .8rem;
 	display: inline;
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
-	position: absolute;
-	left: 35%;
-	bottom: 20%;
 }
 
 /*  MAIN CONTENT STRUCTURE */
 
+.banner {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+.page_content {
+	position: relative;
+	top: 8rem;
+}
+
 article {
 	position: relative;
-	top: 10rem;
-	height: 10rem;
-	background-color: #d6e8b8
+	top: 8rem;
+	background-color: #d6e8b8;
+
 }
 
 section {
 	position: relative;
 	float: right;
-	top: 10rem;
 	background-color: #94877e;
 }
 
 aside {
-	background-color: #94c840;
 	position: relative;
-	top: 10rem;
+	background-color: #94c840;
+	padding-bottom: .5rem;
+	margin-bottom: 13rem;
 }
 
 /*  MAIN IMAGE STRUCTURE */
@@ -119,6 +131,7 @@ section img {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	border: solid 2px white;
 }
 
 aside img {
@@ -128,7 +141,130 @@ aside img {
 	margin-right: auto;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+	border: solid 2px white;
 }
 
 /*  MAIN TEXT STRUCTURE */
+
+article h2 {
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+	color: #523e33;
+	font-size: 4vw;
+	position: relative;
+	top: 1rem;
+	z-index: 1;
+}
+
+article p {
+	font-family: 'Philosopher', sans-serif;
+	width: 50%;
+	font-size: 1.2rem;
+	display: block;
+	position: relative;
+	top: -1rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d6e8b8;
+	line-height: 1.5rem;
+}
+
+section h2 {
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 2.5vw;
+}
+
+section p {
+	font-family: 'Philosopher', sans-serif;
+	width: 70%;
+	font-size: 1.2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d6e8b8;
+	padding: .75rem;
+	line-height: 1.5rem;
+}
+
+.aside_title {
+	position: relative;
+	top: 1rem;
+}
+
+aside h3 {
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 1.85vw;
+}
+
+aside h4 {
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 1.5rem;
+}
+
+aside ul li {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Philosopher', sans-serif;
+	line-height: 1.5rem;
+}
+
+aside p {
+	font-family: 'Philosopher', sans-serif;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d6e8b8;
+	padding: .75rem;
+	font-size: 1.2rem;
+}
+
+/* FOOTER */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 10rem;
+	background-color: #523e33;
+	color: white;
+	text-align: center;
+}
+
+footer h3 {
+	color: white;
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+}
+
+footer h4 {
+	color: white;
+	font-family: 'Inder', sans-serif;
+	text-align: center;
+}
+
+footer ul {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+footer a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
 	
