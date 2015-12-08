@@ -103,13 +103,14 @@ section {
 }
 
 aside {
+	padding-top: 1rem;
 	position: relative;
 	background-color: #94c840;
 	padding-bottom: .5rem;
 	margin-bottom: 13rem;
 }
 
-/*  MAIN IMAGE STRUCTURE */
+/*  MAIN CONTENT IMAGE STRUCTURE */
 
 section img {
 	display: block;
@@ -129,7 +130,7 @@ aside img {
 	border: solid 2px white;
 }
 
-/*  MAIN TEXT STRUCTURE */
+/*  MAIN CONTENT TEXT STRUCTURE */
 
 article h2 {
 	font-family: 'Inder', sans-serif;
@@ -152,13 +153,15 @@ article p {
 	margin-right: auto;
 	background-color: #d6e8b8;
 	line-height: 1.5rem;
+	border: solid 2px #523e33;
+	padding: .75rem;
 }
 
 section h2 {
 	font-family: 'Inder', sans-serif;
 	text-align: center;
 	color: white;
-	font-size: 2.5vw;
+	font-size: 3vw;
 }
 
 section p {
@@ -171,33 +174,46 @@ section p {
 	background-color: #d6e8b8;
 	padding: .75rem;
 	line-height: 1.5rem;
+	border: solid 2px #523e33;
 }
 
 .aside_title {
 	position: relative;
-	top: 1rem;
+	top: -.5rem;
 }
 
 aside h3 {
 	font-family: 'Inder', sans-serif;
 	text-align: center;
 	color: white;
-	font-size: 1.85vw;
+	font-size: 2vw;
 }
 
 aside h4 {
 	font-family: 'Inder', sans-serif;
 	text-align: center;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 aside ul li {
 	display: block;
-	text-align: center;
 	text-decoration: none;
 	font-family: 'Philosopher', sans-serif;
 	line-height: 1.5rem;
+}
+
+aside ul {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+	background-color: #d6e8b8;
+	width: 60%;
+	border: solid 2px #523e33;
 }
 
 aside p {
@@ -209,6 +225,7 @@ aside p {
 	background-color: #d6e8b8;
 	padding: .75rem;
 	font-size: 1.2rem;
+	border: solid 2px #523e33;
 }
 
 /* FOOTER */
