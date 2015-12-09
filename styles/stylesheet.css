@@ -1,0 +1,232 @@
+/* border box and clearfix styles */
+* { box-sizing: border-box;}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* fix header to top of page, set background */
+header {
+  position: fixed;
+  top:  0px;
+  width: 100%;
+  background-color: white;
+}
+
+/* float logo to the left and size it, h1 next to it, center and style h1 */
+.logo {
+  float: left;
+  width: 10%;
+  display: block;
+}
+
+h1 {
+  float: left;
+  text-align: center;
+  width: 90%;
+  font-size: 3rem;
+  margin-top: 1.2rem;
+  font-family: inder;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: #403131;
+}
+
+/* clear float, float, size and style nav buttons */
+
+header nav {
+  clear: both;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  width: 14.27%;
+  float: left;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  background-color: #BCD6D6;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-family: sans-serif;
+}
+
+/* style h2, h3, h4 across the site */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: inder;
+  color: #403131;
+}
+
+h3, h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-family: inder;
+  color: black;
+}
+
+/* set margin on Associations article so it does not sit behind fixed nav bar, float left */
+
+.associations {
+  margin-top: 165px;
+  width: 33%;
+  float: left;
+}
+
+/* style links, images, paragraphs in Associations article, create vertically stacked box for each association */
+
+.associations a {
+  text-decoration: none;
+}
+
+.associations img {
+  width: 100px;
+  height: 100px;
+  margin: 5rem 1rem;
+}
+
+.associations p {
+  width: 60%;
+  float: right;
+  margin: 4rem 1rem;
+  font-size: 1.5rem;
+  font-family: philosopher;
+}
+
+.associations section {
+  clear: both;
+  width: 80%;
+  border: 1px solid black;
+  margin: 1rem auto;
+  background-color: #BCD6D6;
+}
+
+/* set margin on Bios article so it does not sit behind fixed nav bar, float right */
+
+.instructor-bios {
+  margin-top: 165px;
+  width: 66%;
+  float: right;
+}
+
+/* style links, images, paragraphs in Bios article, create two rows of vertically stacked boxes for bios */
+
+.instructor-bios img {
+  width: 320px;
+  height: 240px;
+  display: block;
+  margin: 1rem auto;
+}
+
+.instructor-bios section {
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  margin: 1rem;
+  min-height: 480px;
+  min-width: 320px;
+  background-color: #BCD6D6;
+}
+
+.bio-left {
+  clear: both;
+}
+
+.instructor-bios p {
+  width: 90%;
+  margin: 1.5rem;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-family: philosopher;
+}
+
+/* style video article, float video sections to create one row of videos */
+
+.archery-videos {
+  width: 66%;
+  float: right;
+  margin-top: 1rem;
+  background-color: none;
+}
+
+.archery-videos section {
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  margin: 1rem;
+  background-color: #BCD6D6;
+  min-width: 320px;
+}
+
+.archery-videos video {
+  display: block;
+  margin: 1rem auto;
+}
+
+/* style aside (policy) */
+
+aside {
+  clear: both;
+  padding: 1rem;
+  width: 99%;
+  margin: auto;
+  background-color: #BCD6D6;
+  border: 1px black solid;
+}
+
+aside p {
+  font-size: 1.2rem;
+  width: 90%;
+  margin: auto;
+  font-family: philosopher;
+}
+
+/* set border and background for footer, style links */
+
+footer {
+  border: 1px black solid;
+  margin: 1rem auto;
+  width: 99%;
+  background-color: #BCD6D6;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* create social media nav bar in footer */
+footer ul {
+  width: 80%;
+  margin: auto;
+}
+
+footer li {
+  float: left;
+  width: 20%;
+  border: 1px black solid;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+footer p {
+  clear: both;
+  text-align: center;
+  padding: 1rem;
+  font-family: philosopher;
+}
